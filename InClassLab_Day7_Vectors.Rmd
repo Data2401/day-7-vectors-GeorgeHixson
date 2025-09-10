@@ -152,8 +152,8 @@ ftroll("Julian", "Terry")
 ```{r}
 # Your "cheating" function goes here
 cheatroll = function(name1, name2){
-  rolls2 = sample(1:6, 15, replace = TRUE, prob = c(0.01,0.01, 0.01, 0.01, 0.01, 0.9))
-  rolls1 = sample(1:6, 15, replace = TRUE, prob = c(0.90,0.01, 0.01, 0.01, 0.01, .01))
+  rolls1 = sample(1:6, 15, replace = TRUE, prob = c(0.01,0.01, 0.01, 0.01, 0.01, 0.9))
+  rolls2 = sample(1:6, 15, replace = TRUE,)
   w1 = 0
   w2 = 0
   
@@ -171,6 +171,6 @@ cheatroll = function(name1, name2){
 }
   
 cheatroll("Julian", "Terry")
-#julian never won the game out of the ten runs but terry lost a round twice
+#terry never won the game out of the ten runs 
 ```
 
